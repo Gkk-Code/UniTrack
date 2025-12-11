@@ -1,0 +1,37 @@
+class EnvironmentSettings:
+    def __init__(self):
+        self.workspace_dir = '/home/lsw/PycharmProjects/UniTrack-main'    # Base directory for saving network checkpoints.
+        self.tensorboard_dir = '/home/lsw/PycharmProjects/UniTrack-main/tensorboard'    # Directory for tensorboard files.
+        self.pretrained_networks = '/home/lsw/PycharmProjects/UniTrack-main/pretrained_networks'
+        self.lasot_dir = '/home/lsw/data/LaSOT/zip'
+        self.vasttrack_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/vasttrack'
+        self.got10k_dir = '/home/lsw/data/GOT-10k/train'
+        self.lasot_lmdb_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/lasot_lmdb'
+        self.got10k_lmdb_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/got10k_lmdb'
+        self.trackingnet_dir = '/home/lsw/data/trackingnet'
+        self.trackingnet_lmdb_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/trackingnet_lmdb'
+        self.coco_dir = '/home/lsw/data/coco/coco'
+        self.coco_lmdb_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/coco_lmdb'
+        self.imagenet1k_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/imagenet1k'
+        self.imagenet22k_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/imagenet22k'
+        self.lvis_dir = ''
+        self.sbd_dir = ''
+        self.imagenet_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/vid'
+        self.imagenet_lmdb_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/vid_lmdb'
+        self.imagenetdet_dir = ''
+        self.ecssd_dir = ''
+        self.hkuis_dir = ''
+        self.msra10k_dir = ''
+        self.davis_dir = ''
+        self.youtubevos_dir = ''
+        self.depthtrack_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/depthtrack/train'
+        self.lasher_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/lasher/trainingset'
+        self.visevent_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/visevent/train'
+        self.refcoco_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/refcoco'
+        self.tnl2k_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/tnl2k/train'
+        self.otb99_dir = '/home/lsw/PycharmProjects/UniTrack-main/data/otb_lang'
+
+        self.exdark_dir = '/home/lsw/data/ExDark'
+        self.shift_dir = '/home/lsw/data/shift/img'
+        self.bdd100k_dir = '/home/lsw/data/bdd100k_night'
+
